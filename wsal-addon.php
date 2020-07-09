@@ -91,6 +91,19 @@ function wsal_addon_template_install_notice() {
 add_action( 'admin_init', 'wsal_addon_template_init_install_notice' );
 
 function wsal_addon_template_init_install_notice() {
+	error_log( print_r( 'NEW', true ) );
+	error_log( print_r( 'NEW', true ) );
+	error_log( print_r( 'NEW', true ) );
+	error_log( print_r( 'NEW', true ) );
+	error_log( print_r( 'NEW', true ) );	error_log( print_r( 'NEW', true ) );
+		error_log( print_r( 'NEW', true ) );
+		error_log( print_r( 'NEW', true ) );
+		error_log( print_r( 'NEW', true ) );
+		error_log( print_r( 'NEW', true ) );	error_log( print_r( 'NEW', true ) );
+			error_log( print_r( 'NEW', true ) );
+			error_log( print_r( 'NEW', true ) );
+			error_log( print_r( 'NEW', true ) );
+			error_log( print_r( 'NEW', true ) );
 	// Check if main plugin is installed.
 	if ( ! class_exists( 'WpSecurityAuditLog' ) && ! class_exists( 'WSAL_AlertManager' ) ) {
 		// Check if the notice was already dismissed by the user.
