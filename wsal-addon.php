@@ -37,6 +37,12 @@ add_action( 'plugins_loaded', 'wsal_addon_template_init_actions' );
  * Check if plugin is being installed via a multisite child site, if so, show notice.
  */
 function wsal_addon_template_init_actions() {
+	error_log( print_r( 'NEW', true ) );
+	error_log( print_r( 'NEW', true ) );
+	error_log( print_r( 'NEW', true ) );
+	error_log( print_r( 'NEW', true ) );
+	error_log( print_r( 'NEW', true ) );
+
 	if ( is_multisite() && function_exists( 'is_super_admin' ) && is_super_admin() && ! is_network_admin() ) {
 		if ( ! function_exists( 'is_plugin_active' ) ) {
 			include_once ABSPATH . 'wp-admin/includes/plugin.php';
